@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-10T17:50:45 EST" name="Master Suite" finished-at="2025-01-10T17:50:45 EST" duration-ms="127">
+  <suite started-at="2025-01-11T14:08:24 EST" name="Master Suite" finished-at="2025-01-11T14:08:29 EST" duration-ms="5366">
     <groups>
+      <group name="Master">
+        <method signature="TC004_SearchProductTest.verify_productSearch()[pri:0, instance:testCases.TC004_SearchProductTest@615091b8]" name="verify_productSearch" class="testCases.TC004_SearchProductTest"/>
+      </group> <!-- Master -->
     </groups>
-    <test started-at="2025-01-10T17:50:45 EST" name="Test" finished-at="2025-01-10T17:50:45 EST" duration-ms="127">
+    <test started-at="2025-01-11T14:08:24 EST" name="Test" finished-at="2025-01-11T14:08:29 EST" duration-ms="5366">
+      <class name="testCases.TC004_SearchProductTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProductTest@615091b8]" started-at="2025-01-11T14:08:24 EST" name="setup" finished-at="2025-01-11T14:08:28 EST" duration-ms="4037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_productSearch()[pri:0, instance:testCases.TC004_SearchProductTest@615091b8]" started-at="2025-01-11T14:08:28 EST" name="verify_productSearch" finished-at="2025-01-11T14:08:29 EST" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_productSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_SearchProductTest@615091b8]" started-at="2025-01-11T14:08:29 EST" name="tearDown" finished-at="2025-01-11T14:08:29 EST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_SearchProductTest -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

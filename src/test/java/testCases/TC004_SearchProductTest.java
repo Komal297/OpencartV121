@@ -1,6 +1,7 @@
 package testCases;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
 import pageObjects.SearchPage;
@@ -8,7 +9,9 @@ import testBase.BaseClass;
 
 public class TC004_SearchProductTest extends BaseClass 
 {
-	public void verify_productSearch() {
+	@Test(groups= {"Master"})
+	public void verify_productSearch() 
+	{
 		logger.info("Starting TC004_SearchProductTest...");
 		
 		try 
