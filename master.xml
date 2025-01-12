@@ -16,7 +16,8 @@
       
       <!---     <class name="testCases.TC003_LoginDDT"/>-->
             <class name="testCases.TC004_SearchProductTest"/>
-      
+       <class name="testCases.TC005_AddToCartPageTest"/>
+         <class name="testCases.TC_006_EndToEndTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

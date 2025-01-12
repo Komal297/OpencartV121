@@ -24,10 +24,11 @@ public class SearchPage extends BasePage
 	 
 	 @FindBy(xpath="//button[@id='button-cart']")
 	 WebElement btnaddToCart;
-	 
-	 
+	  
 	 @FindBy(xpath="//div[contains(text(),'Success: You have added')]")
-		WebElement cnfMsg;
+	 WebElement cnfMsg;
+	 
+	 
 	 
 	 //Action Method 
 	 public boolean isProductExist(String ProductName)

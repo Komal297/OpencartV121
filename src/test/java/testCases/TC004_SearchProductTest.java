@@ -16,13 +16,15 @@ public class TC004_SearchProductTest extends BaseClass
 		
 		try 
 		{
-		     HomePage hp=new HomePage(driver);	
-		     
+		     HomePage hp=new HomePage(driver);		     
 		     hp.enterProductName("mac");
 		     hp.clickSearch();
 		     
 		     SearchPage sp=new SearchPage(driver);
 		     sp.isProductExist("MacBook");
+		     
+		    // Thread.sleep(5000);
+		     
 		     
 		     Assert.assertEquals(sp.isProductExist("MacBook"),true);
 		}
