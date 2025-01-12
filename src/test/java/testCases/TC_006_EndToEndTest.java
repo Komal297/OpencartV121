@@ -31,7 +31,7 @@ public class TC_006_EndToEndTest extends BaseClass {
        accreg.setFirstName(randomString().toUpperCase());
        accreg.setLastName(randomString().toUpperCase());
        
-       String email=randomString()+"gmail.com";
+       String email=randomString()+"@gmail.com";
        accreg.setEmail(email);// randomly generated the email
        
        accreg.setTelephone("1234567");

@@ -28,3 +28,9 @@
 2025-01-12 15:22:31 INFO  TC004_SearchProductTest:36 - Finished TC004_SearchProductTest...
 2025-01-12 15:22:53 INFO  TC005_AddToCartPageTest:15 - Starting TC005_AddToCartPageTest...
 2025-01-12 15:22:55 INFO  TC005_AddToCartPageTest:40 - Finished TC005_AddToCartPageTest...
+2025-01-12 16:37:56 DEBUG TestNG:82 - suiteXmlPath: "D:\Automation\Eclipseworkspace\OpencartV121\master.xml"
+2025-01-12 16:38:47 DEBUG TestNG:82 - suiteXmlPath: "D:\Automation\Eclipseworkspace\OpencartV121\master.xml"
+2025-01-12 16:41:33 DEBUG TestNG:82 - suiteXmlPath: "D:\Automation\Eclipseworkspace\OpencartV121\master.xml"
+2025-01-12 16:43:15 DEBUG TestNG:82 - suiteXmlPath: "D:\Automation\Eclipseworkspace\OpencartV121\master.xml"
+2025-01-12 16:46:25 DEBUG TestNG:82 - suiteXmlPath: "D:\Automation\Eclipseworkspace\OpencartV121\master.xml"
+2025-01-12 16:48:12 DEBUG TestNG:82 - suiteXmlPath: "D:\Automation\Eclipseworkspace\OpencartV121\master.xml"

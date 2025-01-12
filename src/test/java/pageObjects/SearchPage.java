@@ -15,7 +15,7 @@ public class SearchPage extends BasePage
 	 }
 	 
 	 
-	 //Locators
+	 //Locators)
 	 @FindBy(xpath="//*[@id='content']/div[3]//img")
 	 List<WebElement> searchProducts;
 	 

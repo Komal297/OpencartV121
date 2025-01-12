@@ -18,6 +18,8 @@ public ShoppingCartPage(WebDriver driver)
 
   @FindBy(xpath="//strong[normalize-space()='View Cart']")
   WebElement lnkViewCart;
+  
+
 
   @FindBy(xpath="//*[@id='content']/div[2]/div/table//Strong[text()='Total:']//following::td")
   WebElement lblTotalPrice;
